@@ -1,0 +1,23 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+body { background-color: #2a2d2e; padding: 50px; box-sizing: border-box; }
+
+h1 { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff; font-size: 4em; text-align: center; }
+
+header { height: 200px; margin-bottom: 25px; background-color: #212324;border: solid 5px #fb7d07; text-align: center; }
+
+img { width: 50%; height: 210px; }
+
+nav { height: 75px; margin-bottom: 25px; background-color: #212324;border: solid 5px #fb7d07; }
+
+main { display: flex; flex-grow: 1; justify-content: space-between; margin-bottom: 25px; }
+
+article { width: 70%; background-color: #212324; border: solid 5px #fb7d07; }
+
+section { width: 25%; background-color: #212324; border: solid 5px #fb7d07; }
+
+footer { height: 125px; background-color: #212324; border: solid 5px #fb7d07; }
